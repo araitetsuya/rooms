@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "rooms-d67a1": {
+      "hosting": {
+        "rooms": [
+          "rooms-d67a1"
+        ]
+      }
+    }
+  }
+}
