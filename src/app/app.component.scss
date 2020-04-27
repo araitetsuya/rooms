@@ -8,6 +8,13 @@
   margin: 24px auto;
   border: 1px solid rgba(0, 0, 0, 0.12);
   height: 400px;
+  &__right {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50px;
+    transform: translateX(-50%);
+  }
   &__floor {
     position: absolute;
     bottom: 0;
@@ -16,4 +23,11 @@
     height: 40px;
     background: #6a4564;
   }
+}
+
+.user {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  width: 50px;
 }

@@ -15,6 +15,7 @@ import {MatButtonModule} from "@angular/material/button";
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
 import {MatIconModule} from "@angular/material/icon";
+import {DragDropModule} from '@angular/cdk/drag-drop';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import {MatIconModule} from "@angular/material/icon";
     BrowserModule,
     BrowserAnimationsModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFireAnalyticsModule,
+    //AngularFireAnalyticsModule,
     AngularFirestoreModule,
     AngularFireAuthModule,
     AngularFireStorageModule,
@@ -32,7 +33,8 @@ import {MatIconModule} from "@angular/material/icon";
     MatButtonModule,
     MatFormFieldModule,
     MatInputModule,
-    MatIconModule
+    MatIconModule,
+    DragDropModule
   ],
   providers: [],
   bootstrap: [AppComponent]
